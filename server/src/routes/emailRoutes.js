@@ -17,3 +17,5 @@ router.post(
   "/renderAndDownloadTemplate",
   emailController.renderAndDownloadTemplate
 );
+
+module.exports = router;
