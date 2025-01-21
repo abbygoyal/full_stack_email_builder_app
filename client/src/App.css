@@ -1,0 +1,32 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.editor {
+  display: flex;
+  width: 80%;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.editor > div:first-child {
+  flex: 2;
+  padding: 20px;
+}
+
+.settings {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.settings input,
+.settings textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  box-sizing: border-box;
+}

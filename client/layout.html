@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Template</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      .email-container {
+        width: 80%;
+        margin: 20px auto;
+        border: 1px solid #ddd;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+      }
+      .logo-container {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .logo-container img {
+        max-width: 150px;
+      }
+      .title-container {
+        margin-bottom: 10px;
+      }
+      .title-container h2 {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .body-container {
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email-container">
+      <div class="logo-container">
+        <img src="{{logoUrl}}" alt="Company Logo" />
+      </div>
+      <div class="title-container">
+        <h2>{{title}}</h2>
+      </div>
+      <div class="body-container">{{content}}</div>
+    </div>
+  </body>
+</html>
