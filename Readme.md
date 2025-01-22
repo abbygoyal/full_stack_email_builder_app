@@ -1,6 +1,3 @@
-Certainly! Here's a complete README template for your GitHub repository for the "Email Builder" application:
-
----
 
 # Email Builder
 
