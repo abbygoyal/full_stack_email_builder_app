@@ -1,5 +1,5 @@
 
-# Email Builder
+# Full Stack Email Builder App
 
 Email Builder is a full-stack web application designed to create and manage email templates easily. It provides a user-friendly interface for non-technical users to customize email templates according to their needs.
 
